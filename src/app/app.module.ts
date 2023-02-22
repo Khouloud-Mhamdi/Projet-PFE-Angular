@@ -13,6 +13,9 @@ import { InfoSectionComponent } from './components/info-section/info-section.com
 import { DisciplineSectionComponent } from './components/discipline-section/discipline-section.component';
 import { EventSectionComponent } from './components/event-section/event-section.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { EvenementsPageComponent } from './components/evenements-page/evenements-page.component';
+import { AproposPageComponent } from './components/apropos-page/apropos-page.component';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +29,9 @@ import { ContactComponent } from './components/contact/contact.component';
     InfoSectionComponent,
     DisciplineSectionComponent,
     EventSectionComponent,
-    ContactComponent
+    ContactComponent,
+    EvenementsPageComponent,
+    AproposPageComponent
   ],
   imports: [
     BrowserModule,
