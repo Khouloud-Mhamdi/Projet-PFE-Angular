@@ -12,6 +12,7 @@ import { IntroSectionComponent } from './components/intro-section/intro-section.
 import { InfoSectionComponent } from './components/info-section/info-section.component';
 import { DisciplineSectionComponent } from './components/discipline-section/discipline-section.component';
 import { EventSectionComponent } from './components/event-section/event-section.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { EventSectionComponent } from './components/event-section/event-section.
     IntroSectionComponent,
     InfoSectionComponent,
     DisciplineSectionComponent,
-    EventSectionComponent
+    EventSectionComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
