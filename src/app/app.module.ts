@@ -15,6 +15,7 @@ import { EventSectionComponent } from './components/event-section/event-section.
 import { ContactComponent } from './components/contact/contact.component';
 import { EvenementsPageComponent } from './components/evenements-page/evenements-page.component';
 import { AproposPageComponent } from './components/apropos-page/apropos-page.component';
+import { AuthentificationComponent } from './components/authentification/authentification.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { AproposPageComponent } from './components/apropos-page/apropos-page.com
     EventSectionComponent,
     ContactComponent,
     EvenementsPageComponent,
-    AproposPageComponent
+    AproposPageComponent,
+    AuthentificationComponent
   ],
   imports: [
     BrowserModule,
