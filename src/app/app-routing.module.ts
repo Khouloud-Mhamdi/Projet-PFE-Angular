@@ -7,32 +7,26 @@ import { AproposPageComponent } from './components/apropos-page/apropos-page.com
 import { BasketPageComponent } from './components/basket-page/basket-page.component';
 import { CreerCompteComponent } from './components/creer-compte/creer-compte.component';
 import { EvenementsPageComponent } from './components/evenements-page/evenements-page.component';
-<<<<<<< HEAD
 import { AuthentificationComponent } from './components/authentification/authentification.component';
 import { TennisPageComponent } from './tennis-page/tennis-page.component';
+import { SingleEventPageComponent } from './components/single-event-page/single-event-page.component';
+import { VolleyPageComponent } from './components/volley-page/volley-page.component';
+import { HandballPageComponent } from './components/handball-page/handball-page.component';
+
 
 
 const routes: Routes = [
   {path : "Apropos" , component:AproposPageComponent},
   {path : "events" , component:EvenementsPageComponent},
   {path : "" , component:AccueilComponent},
+  {path:"singleEvent" , component : SingleEventPageComponent},
+  {path:"basket" , component : BasketPageComponent},
   {path : "Contact" , component:ContactComponent},
   {path : "Connexion" , component:AuthentificationComponent},
   {path : "Tennis" , component:TennisPageComponent},
-
-=======
-import { SingleEventPageComponent } from './components/single-event-page/single-event-page.component';
-import { VolleyPageComponent } from './components/volley-page/volley-page.component';
-
-const routes: Routes = [
-  {path : "Apropos" , component:AproposPageComponent}, 
-  {path : "events" , component:EvenementsPageComponent}, 
-  {path : "" , component:AccueilComponent}, 
-  {path:"singleEvent" , component : SingleEventPageComponent}, 
-  {path:"basket" , component : BasketPageComponent},
   {path:"volley" , component : VolleyPageComponent},
-  {path:"compte" , component : CreerCompteComponent}
->>>>>>> 0b2111b9c5b61b5d7f3e59006037e57a98adae2a
+  {path:"compte" , component : CreerCompteComponent},
+  {path:"handball" , component : HandballPageComponent}
 
 ];
 
