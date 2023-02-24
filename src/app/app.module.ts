@@ -14,6 +14,10 @@ import { DisciplineSectionComponent } from './components/discipline-section/disc
 import { EventSectionComponent } from './components/event-section/event-section.component';
 import { EvenementsPageComponent } from './components/evenements-page/evenements-page.component';
 import { AproposPageComponent } from './components/apropos-page/apropos-page.component';
+import { SingleEventPageComponent } from './components/single-event-page/single-event-page.component';
+import { BasketPageComponent } from './components/basket-page/basket-page.component';
+import { VolleyPageComponent } from './components/volley-page/volley-page.component';
+import { CreerCompteComponent } from './components/creer-compte/creer-compte.component';
 
 
 @NgModule({
@@ -29,7 +33,11 @@ import { AproposPageComponent } from './components/apropos-page/apropos-page.com
     DisciplineSectionComponent,
     EventSectionComponent,
     EvenementsPageComponent,
-    AproposPageComponent
+    AproposPageComponent,
+    SingleEventPageComponent,
+    BasketPageComponent,
+    VolleyPageComponent,
+    CreerCompteComponent
   ],
   imports: [
     BrowserModule,
