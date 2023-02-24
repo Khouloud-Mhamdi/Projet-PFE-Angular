@@ -16,6 +16,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { EvenementsPageComponent } from './components/evenements-page/evenements-page.component';
 import { AproposPageComponent } from './components/apropos-page/apropos-page.component';
 import { AuthentificationComponent } from './components/authentification/authentification.component';
+import { TennisPageComponent } from './tennis-page/tennis-page.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { AuthentificationComponent } from './components/authentification/authent
     ContactComponent,
     EvenementsPageComponent,
     AproposPageComponent,
-    AuthentificationComponent
+    AuthentificationComponent,
+    TennisPageComponent
   ],
   imports: [
     BrowserModule,
