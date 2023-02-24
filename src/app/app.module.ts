@@ -15,8 +15,15 @@ import { EventSectionComponent } from './components/event-section/event-section.
 import { ContactComponent } from './components/contact/contact.component';
 import { EvenementsPageComponent } from './components/evenements-page/evenements-page.component';
 import { AproposPageComponent } from './components/apropos-page/apropos-page.component';
+<<<<<<< HEAD
 import { AuthentificationComponent } from './components/authentification/authentification.component';
 import { TennisPageComponent } from './tennis-page/tennis-page.component';
+=======
+import { SingleEventPageComponent } from './components/single-event-page/single-event-page.component';
+import { BasketPageComponent } from './components/basket-page/basket-page.component';
+import { VolleyPageComponent } from './components/volley-page/volley-page.component';
+import { CreerCompteComponent } from './components/creer-compte/creer-compte.component';
+>>>>>>> 0b2111b9c5b61b5d7f3e59006037e57a98adae2a
 
 
 @NgModule({
@@ -34,8 +41,15 @@ import { TennisPageComponent } from './tennis-page/tennis-page.component';
     ContactComponent,
     EvenementsPageComponent,
     AproposPageComponent,
+<<<<<<< HEAD
     AuthentificationComponent,
     TennisPageComponent
+=======
+    SingleEventPageComponent,
+    BasketPageComponent,
+    VolleyPageComponent,
+    CreerCompteComponent
+>>>>>>> 0b2111b9c5b61b5d7f3e59006037e57a98adae2a
   ],
   imports: [
     BrowserModule,
